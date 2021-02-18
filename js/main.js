@@ -1,25 +1,28 @@
 scrollTo = (element) => {
   window.scroll({
-    behavior: 'smooth',
+    behavior: "smooth",
     left: 0,
-    top: element.offsetTop
+    top: element.offsetTop,
   });
+};
 
-}
-document.getElementById("about").addEventListener('click', () => {
+document.getElementById("header").addEventListener("click", () => {
+  scrollTo(document.getElementById("header"));
+});
+
+document.getElementById("about").addEventListener("click", () => {
   scrollTo(document.getElementById("aboutNew"));
 });
 
-document.getElementById("service").addEventListener('click', () => {
+document.getElementById("service").addEventListener("click", () => {
   scrollTo(document.getElementById("serviceNew"));
 });
 
-document.getElementById("contactUs").addEventListener('click', () => {
+document.getElementById("contactUs").addEventListener("click", () => {
   scrollTo(document.getElementById("contactUsNew"));
 });
 
 // var backToTop = document.getElementById("back-top");
-
 
 // window.addEventListener('scroll', function() {
 //  var Y = window.scrollY;
