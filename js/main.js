@@ -7,7 +7,7 @@ scrollTo = (element) => {
 };
 
 document.getElementById("header").addEventListener("click", () => {
-  scrollTo(document.getElementById("header"));
+  scrollTo(document.getElementById("headerNew"));
 });
 
 document.getElementById("about").addEventListener("click", () => {
