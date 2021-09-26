@@ -22,6 +22,32 @@ document.getElementById("contactUs").addEventListener("click", () => {
   scrollTo(document.getElementById("contactUsNew"));
 });
 
+const services = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+];
+
+services.forEach((service) => {
+  document
+    .getElementById(`advs-box${service}`)
+    .addEventListener("mouseenter", () => {
+      document.getElementById(`advs-box${service}-img`).classList.add("scale");
+      document
+        .getElementById(`advs-box${service}-content`)
+        .classList.add("content-hovered");
+    });
+
+  document
+    .getElementById(`advs-box${service}`)
+    .addEventListener("mouseleave", () => {
+      document
+        .getElementById(`advs-box${service}-img`)
+        .classList.remove("scale");
+      document
+        .getElementById(`advs-box${service}-content`)
+        .classList.remove("content-hovered");
+    });
+});
+
 // var backToTop = document.getElementById("back-top");
 
 // window.addEventListener('scroll', function() {
