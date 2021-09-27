@@ -271,7 +271,8 @@ header,
 /* ========= Header ========= */
 header {
   float: left;
-  width: 100%;
+  width: 100vw;
+
   position: absolute;
   padding-top: 40px;
   z-index: 99999;
@@ -288,7 +289,7 @@ header.stick.sticky {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 9999;
   margin: 0;
   padding: 0;
@@ -4123,7 +4124,7 @@ main.lght .ep-icon:after {
   height: 0;
   padding: 40px 0;
   z-index: 999999;
-  width: 100%;
+  width: 100vw;
   opacity: 0;
   height: 100%;
   overflow: auto;
@@ -4491,7 +4492,7 @@ main.lght .ep-icon:after {
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 999999;
 }
 .page-loading.white-bg {
