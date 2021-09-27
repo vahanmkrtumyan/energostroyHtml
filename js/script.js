@@ -85,9 +85,9 @@ $(window).on("load", function () {
   $(".wrapper").css({
     "margin-bottom": footer_height,
   });
-  $("footer").css({
-    height: footer_height,
-  });
+  // $("footer").css({
+  //   height: footer_height,
+  // });
 
   // ============ PAGE LOADER =============
 
