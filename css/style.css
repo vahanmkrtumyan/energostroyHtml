@@ -1603,6 +1603,12 @@ footer:hover {
     }
 }
 
+@media screen and (max-width: 800px) {
+    h4 {
+        font-size: 1.25rem;
+    }
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
@@ -1795,6 +1801,12 @@ footer:hover {
     height: 140px;
     padding: 30px;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+    .advs-box-content {
+        padding: 20px;
+    }
 }
 
 .content-hovered {
@@ -2909,8 +2921,25 @@ main.lght .ep-icon:after {
     width: 100%;
     padding: 95px 100px 90px 100px;
 }
+
+@media screen and (max-width: 800px) {
+    .choose-sec {
+        padding: 95px 20px 90px;
+    }
+}
+
 .heading1 {
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .heading1 {
+        font-size: 1.25rem;
+    }
+}
+
+.hero-text {
+    font-size: 48px;
 }
 
 /* =========== trust-section ============== */
